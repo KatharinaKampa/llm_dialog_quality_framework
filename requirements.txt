@@ -69,7 +69,7 @@ huggingface_hub>=0.23.0   # hf_hub_download, HfApi (private dataset access)
 
 # R Packages (for r_scripts/)
 #
-# --- Study A (02_studyA_primary_and_sens_analysis.R) ---
+# Study A (studyA_analysis.R)
 # install.packages(c(
 #     "tidyverse",    # data wrangling + ggplot2
 #     "readr",        # fast CSV reading
