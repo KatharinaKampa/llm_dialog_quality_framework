@@ -465,7 +465,5 @@ Presentation order good/bad: randomized per rater (`rng_for_rater(rater_id)`).
 ## Citation
 
 ```
-Kampa, K. (2026). Können LLMs gut diskutieren? Entwicklung und Validierung
-eines kommunikationstheoretisch fundierten Multi-Agenten-Frameworks zur
-Evaluation dialogischer Qualität [Master's thesis]. University of Regensburg.
+Kampa, K. (2026). Können LLMs gut diskutieren? [Master's thesis]. University of Regensburg.
 ```
