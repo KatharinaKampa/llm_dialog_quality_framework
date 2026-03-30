@@ -1,0 +1,17 @@
+rater_id,flag_incomplete,flag_imc_fail,flag_fast_median,flag_low_variance,flag_straightlining,flag_gold_fail,reason_compact,status
+P071,1,True,False,False,False,False,"incomplete_or_wrong_gold/imc_count, imc_fail",EXCLUDED
+P018,1,False,False,False,False,False,incomplete_or_wrong_gold/imc_count,KEPT
+P047,0,False,False,False,False,False,,KEPT
+P055,0,False,False,False,False,False,,KEPT
+P069,0,False,False,False,False,False,,KEPT
+P072,0,False,False,False,False,False,,KEPT
+P076,0,False,False,False,False,False,,KEPT
+P080,0,False,False,False,False,False,,KEPT
+P084,0,False,False,False,False,False,,KEPT
+P091,0,False,False,False,False,False,,KEPT
+P104,0,False,False,False,False,False,,KEPT
+P106,0,False,False,False,False,False,,KEPT
+P109,0,False,False,False,False,False,,KEPT
+P162,1,False,False,False,False,False,incomplete_or_wrong_gold/imc_count,KEPT
+P165,0,False,False,False,False,False,,KEPT
+P167,0,False,False,False,False,False,,KEPT

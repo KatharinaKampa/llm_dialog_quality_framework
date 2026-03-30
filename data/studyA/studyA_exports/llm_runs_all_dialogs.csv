@@ -1,0 +1,2401 @@
+dialog_id,run_id,temperature,raw_response,condition,is_gold,is_imc,llm_clarity,llm_relevance,llm_truthfulness,llm_logic_coherence,llm_respect_appreciation,llm_relational_appropriateness,llm_feedback_depth,llm_overall_quality
+D001,1,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 7
+}",good,1,0,7,7,7,6,7,7,6,7
+D001,2,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 7
+}",good,1,0,7,7,7,6,7,7,6,7
+D001,3,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 7
+}",good,1,0,7,7,7,6,7,7,6,7
+D002,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D002,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D002,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D003,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D003,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D003,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D004,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D004,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D004,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D005,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,1,0,6,6,6,6,7,7,6,6
+D005,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,1,0,6,6,6,6,7,7,6,6
+D005,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,1,0,6,6,6,6,7,7,6,6
+D006,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,1,6,6,6,6,7,7,6,6
+D006,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,1,6,6,6,6,7,7,6,6
+D006,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,1,6,6,6,6,7,7,6,6
+D007,1,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 7
+}",good,0,0,7,7,7,6,7,7,6,7
+D007,2,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 7
+}",good,0,0,7,7,7,6,7,7,6,7
+D007,3,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 7
+}",good,0,0,7,7,7,6,7,7,6,7
+D008,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 5,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,6,6,5,6
+D008,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 5,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,6,6,5,6
+D008,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 5,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,6,6,5,6
+D009,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 5,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,6,6,5,6
+D009,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 5,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,6,6,5,6
+D009,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 5,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,6,6,5,6
+D010,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D010,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D010,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D011,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 5,
+  ""overall_quality"": 6
+}",good,1,0,6,6,6,5,6,6,5,6
+D011,2,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 7
+}",good,1,0,7,7,7,6,7,7,6,7
+D011,3,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 7
+}",good,1,0,7,7,7,6,7,7,6,7
+D012,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 5,
+  ""overall_quality"": 6
+}",good,1,0,6,6,6,5,6,6,5,6
+D012,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 5,
+  ""overall_quality"": 6
+}",good,1,0,6,6,6,5,6,6,5,6
+D012,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 5,
+  ""overall_quality"": 6
+}",good,1,0,6,6,6,5,6,6,5,6
+D013,1,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,0,0,7,7,7,7,7,7,7,7
+D013,2,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,0,0,7,7,7,7,7,7,7,7
+D013,3,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,0,0,7,7,7,7,7,7,7,7
+D014,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D014,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D014,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D015,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D015,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D015,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D016,1,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 7
+}",good,0,1,7,7,7,6,7,7,6,7
+D016,2,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 7
+}",good,0,1,7,7,7,6,7,7,6,7
+D016,3,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,0,1,7,7,7,7,7,7,7,7
+D017,1,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,0,1,7,7,7,7,7,7,7,7
+D017,2,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,0,1,7,7,7,7,7,7,7,7
+D017,3,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,0,1,7,7,7,7,7,7,7,7
+D018,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D018,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D018,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D019,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D019,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D019,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D020,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D020,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D020,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,6,7,7,6,6
+D021,1,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,0,0,7,7,7,7,7,7,7,7
+D021,2,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,0,0,7,7,7,7,7,7,7,7
+D021,3,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,0,0,7,7,7,7,7,7,7,7
+D022,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D022,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D022,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D023,1,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,1,0,7,7,7,7,7,7,7,7
+D023,2,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,1,0,7,7,7,7,7,7,7,7
+D023,3,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,1,0,7,7,7,7,7,7,7,7
+D024,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 5,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,6,6,5,6
+D024,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 5,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,6,6,5,6
+D024,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 5,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,6,6,5,6
+D025,1,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,0,0,7,7,7,7,7,7,7,7
+D025,2,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,0,0,7,7,7,7,7,7,7,7
+D025,3,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,0,0,7,7,7,7,7,7,7,7
+D026,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D026,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D026,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D027,1,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,0,1,7,7,7,7,7,7,7,7
+D027,2,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,0,1,7,7,7,7,7,7,7,7
+D027,3,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,0,1,7,7,7,7,7,7,7,7
+D028,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D028,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D028,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D029,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,1,0,6,6,6,6,7,7,6,6
+D029,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,1,0,6,6,6,6,7,7,6,6
+D029,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,1,0,6,6,6,6,7,7,6,6
+D030,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 5,
+  ""overall_quality"": 6
+}",good,1,0,6,6,6,5,6,6,5,6
+D030,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 5,
+  ""overall_quality"": 6
+}",good,1,0,6,6,6,5,6,6,5,6
+D030,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 5,
+  ""overall_quality"": 6
+}",good,1,0,6,6,6,5,6,6,5,6
+D031,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D031,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D031,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D032,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D032,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D032,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D033,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,6,6,6,6
+D033,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D033,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,6,6,6,6
+D034,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D034,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D034,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D035,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D035,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D035,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D036,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,1,6,6,6,5,6,6,6,6
+D036,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,1,6,6,6,5,6,6,6,6
+D036,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,1,6,6,6,6,7,7,6,6
+D037,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D037,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D037,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D038,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,6,6,6,6
+D038,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,6,6,6,6
+D038,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 6,
+  ""relational_appropriateness"": 6,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,6,6,6,6
+D039,1,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 7,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,1,0,7,7,7,7,7,7,7,7
+D039,2,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 7,
+  ""overall_quality"": 7
+}",good,1,0,7,7,7,6,7,7,7,7
+D039,3,0.2,"{
+  ""clarity"": 7,
+  ""relevance"": 7,
+  ""truthfulness"": 7,
+  ""logic_coherence"": 6,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 7
+}",good,1,0,7,7,7,6,7,7,6,7
+D040,1,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D040,2,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D040,3,0.2,"{
+  ""clarity"": 6,
+  ""relevance"": 6,
+  ""truthfulness"": 6,
+  ""logic_coherence"": 5,
+  ""respect_appreciation"": 7,
+  ""relational_appropriateness"": 7,
+  ""feedback_depth"": 6,
+  ""overall_quality"": 6
+}",good,0,0,6,6,6,5,7,7,6,6
+D041,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D041,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D041,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D042,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,2,1,1,1,1,1
+D042,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,2,1,1,1,1,1
+D042,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,2,1,1,1,1,1
+D043,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,1,1,2,2,1,1,1,1,1
+D043,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,1,1,2,2,1,1,1,1,1
+D043,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,1,1,2,2,1,1,1,1,1
+D044,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,1,0,2,3,4,2,1,1,2,1
+D044,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,1,0,2,3,4,2,1,1,2,1
+D044,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,1,0,2,3,4,2,1,1,2,1
+D045,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,1,0,2,3,4,2,1,1,2,1
+D045,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,1,0,2,3,4,2,1,1,2,1
+D045,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,1,0,2,3,4,2,1,1,2,1
+D046,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,1,1,2,2,1,1,1,1,1
+D046,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 1,
+  ""truthfulness"": 1,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,1,1,1,1,1,1,1,1,1
+D046,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 1,
+  ""truthfulness"": 1,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,1,1,1,1,1,1,1,1,1
+D047,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,4,1,1,1,1,1
+D047,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,4,1,1,1,1,1
+D047,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,4,1,1,1,1,1
+D048,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,2,2,1,1,2,1
+D048,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,2,2,1,1,2,1
+D048,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,2,1,1,1,2,1
+D049,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D049,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D049,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D050,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,2,2,1,1,2,1
+D050,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,2,2,1,1,2,1
+D050,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,2,2,1,1,2,1
+D051,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,1,0,1,2,2,1,1,1,1,1
+D051,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,1,0,1,2,2,1,1,1,1,1
+D051,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,1,0,1,2,2,1,1,1,1,1
+D052,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,1,0,1,2,2,1,1,1,1,1
+D052,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,1,0,1,2,2,1,1,1,1,1
+D052,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,1,0,1,2,2,1,1,1,1,1
+D053,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,1,0,2,3,4,2,1,1,2,1
+D053,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,1,0,2,3,4,2,1,1,2,1
+D053,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,1,0,2,3,4,2,1,1,2,1
+D054,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D054,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D054,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D055,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1
+D055,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1
+D055,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1
+D056,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,1,2,2,3,2,1,1,2,1
+D056,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,1,1,2,2,1,1,1,1,1
+D056,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,1,1,2,2,1,1,1,1,1
+D057,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 1,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,1,1,2,1,1,1,1,1,1
+D057,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,1,1,2,2,1,1,1,1,1
+D057,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,1,1,2,2,1,1,1,1,1
+D058,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,1,0,1,2,2,1,1,1,1,1
+D058,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,1,0,1,2,3,1,1,1,1,1
+D058,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,1,0,1,2,2,1,1,1,1,1
+D059,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,2,1,1,1,1,1
+D059,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1
+D059,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1
+D060,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,2,1,1,1,1,1
+D060,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,2,1,1,1,1,1
+D060,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,2,1,1,1,1,1
+D061,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D061,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D061,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D062,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D062,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D062,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D063,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,4,1,1,1,1,1
+D063,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,4,1,1,1,1,1
+D063,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,4,1,1,1,1,1
+D064,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D064,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D064,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D065,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,2,2,1,1,2,1
+D065,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,2,2,1,1,2,1
+D065,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,2,2,1,1,2,1
+D066,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,1,1,2,2,1,1,1,1,1
+D066,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,1,1,2,2,1,1,1,1,1
+D066,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,1,1,2,2,1,1,1,1,1
+D067,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,4,1,1,1,1,1
+D067,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,4,1,1,1,1,1
+D067,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,4,1,1,1,1,1
+D068,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,2,2,1,1,2,1
+D068,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,2,2,1,1,2,1
+D068,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,2,2,1,1,2,1
+D069,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 2,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,2,2,4,2,1,1,1,1
+D069,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 2,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,2,2,4,2,1,1,1,1
+D069,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 2,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,2,2,4,2,1,1,1,1
+D070,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,2,1,1,1,1,1
+D070,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,2,1,1,1,1,1
+D070,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,2,1,1,1,1,1
+D071,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1
+D071,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1
+D071,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1
+D072,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,2,1,1,1,2,1
+D072,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,2,1,1,1,1,1
+D072,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,2,1,1,1,1,1
+D073,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D073,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D073,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,3,4,2,1,1,2,1
+D074,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,2,1,1,1,1,1
+D074,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,2,1,1,1,1,1
+D074,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,2,1,1,1,1,1
+D075,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 2,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,2,4,2,1,1,2,1
+D075,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 2,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,2,4,2,1,1,2,1
+D075,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 2,
+  ""truthfulness"": 4,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,0,0,2,2,4,2,1,1,2,1
+D076,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,1,0,2,3,2,2,1,1,2,1
+D076,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,1,0,2,3,2,2,1,1,2,1
+D076,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,1,0,2,3,2,2,1,1,2,1
+D077,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1
+D077,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1
+D077,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1
+D078,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1
+D078,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1
+D078,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1
+D079,1,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,1,0,2,3,2,2,1,1,2,1
+D079,2,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,1,0,2,3,2,2,1,1,2,1
+D079,3,0.2,"{
+  ""clarity"": 2,
+  ""relevance"": 3,
+  ""truthfulness"": 2,
+  ""logic_coherence"": 2,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 2,
+  ""overall_quality"": 1
+}",bad,1,0,2,3,2,2,1,1,2,1
+D080,1,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1
+D080,2,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1
+D080,3,0.2,"{
+  ""clarity"": 1,
+  ""relevance"": 2,
+  ""truthfulness"": 3,
+  ""logic_coherence"": 1,
+  ""respect_appreciation"": 1,
+  ""relational_appropriateness"": 1,
+  ""feedback_depth"": 1,
+  ""overall_quality"": 1
+}",bad,0,0,1,2,3,1,1,1,1,1

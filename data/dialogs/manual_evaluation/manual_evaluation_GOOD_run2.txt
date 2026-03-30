@@ -1,0 +1,80 @@
+Manual Evaluation Log - GOOD DIALOGS (Second Generation Run)
+
+Evaluator: Katharina Kampa
+Purpose: - Manual quality review of regenerated dialogs (second run)
+         - Final Gold / IMC dialog selection
+
+For review criteria, R-Criteria-Codes, and Gold/IMC definitions, see manual_evaluation_GOOD_run1.txt.
+
+Results - SECOND BATCH (40 GOOD Dialogs, after filtering & regeneration)
+
+Moong Dal                                          : pot. Gold
+Bourbon Wieners                                    : normal
+Pasta with Vietnamese Pesto                        : normal          [regenerated - accepted]
+Cobb Salad Ham Roll-ups                            : normal
+Grain-Free Apple Cinnamon Dutch Babies             : normal
+Best Ever Muffins                                  : pot. Gold
+Jeanine's Decadent Brownies                        : normal
+Red Bliss Potato Salad with Gorgonzola and Walnuts : normal
+Bread Pudding I                                    : normal
+Whole Grain Barley and Apple Porridge              : pot. Gold
+Coriander and Cumin Rubbed Pork Chops              : normal
+Eggplant Vinaigrette                               : pot. Gold
+Tangy Southwest Coleslaw                           : pot. Gold
+Ice Cream Kolacky                                  : pot. IMC
+Mom's Margarine Cake                               : normal
+Seitan Philly Cheese Steak Sandwiches              : normal
+Strawberry Rhubarb Coffee Cake                     : normal
+Cuban-Style Pork and Sweet Potatoes                : normal          [regenerated - accepted]
+Extreme Chocolate Cake                             : pot. IMC
+That Addicting Salad                               : pot. Gold
+Carrot Casserole                                   : normal
+Bill Yosses's Cheesecake                           : normal
+Mock Caprese Salad                                 : normal          [regenerated - accepted]
+Orange Beef Kabobs with Grilled Fruit              : normal
+Au Gratin-Pumpkin Layered Casserole                : normal          [regenerated — accepted]
+Minted Marinated Zucchini                          : normal          [regenerated — accepted]
+No-Bake Energy Bites                               : normal          [regenerated — accepted]
+Very Old Meatloaf Recipe                           : normal
+Corned Beef-Stuffed Pumpernickel                   : pot. IMC
+Turkey Tom Kha Gai                                 : normal
+Sweet and Nutty Pork Chops                         : normal
+Carrot and Sweet Potato Tzimmes                    : normal          [regenerated — accepted]
+Layered Mousse Bites                               : normal          [regenerated — accepted]
+Grandma's Apple Dumplings                          : normal          [regenerated — accepted]
+White Chocolate and Passion Fruit Cheesecake       : normal
+Sticky Sweet and Sour Chicken                      : pot. IMC
+Spanish Omelet                                     : normal
+Apple Pie Filling                                  : normal          [regenerated — accepted]
+Herbed Chuck Steaks                                : pot. Gold
+Southwest Chicken                                  : pot. Gold
+
+
+Final GOLD Dialog selection - GOOD condition
+Selected Gold dialogs (GOOD):
+  - Moong Dal
+  - Best Ever Muffins
+  - Whole Grain Barley and Apple Porridge
+  - Eggplant Vinaigrette
+  - Tangy Southwest Coleslaw
+  - That Addicting Salad
+  - Herbed Chuck Steaks
+  - Southwest Chicken
+
+Final IMC Dialog selection - GOOD condition
+Selected IMC dialogs (GOOD):
+  - Ice Cream Kolacky
+  - Extreme Chocolate Cake
+  - Corned Beef-Stuffed Pumpernickel
+  - Sticky Sweet and Sour Chicken
+
+Summary SECOND BATCH
+
+Total dialogs reviewed  : 40
+Accepted (normal)       : 28
+Pot. Gold (confirmed)   : 8
+Pot. IMC (confirmed)    : 4
+REGENERATE              : 0  (no further issues in second run)
+Third generation run    : not required
+
+Final GOOD corpus       : 40 dialogs (all structurally valid)

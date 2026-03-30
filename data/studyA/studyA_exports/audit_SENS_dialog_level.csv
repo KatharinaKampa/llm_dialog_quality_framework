@@ -1,0 +1,81 @@
+dialog_id,condition,stim_is_gold,stim_is_imc,n_valid_raters,row_exclusion_reasons,is_regular_stimulus,kept_for_human_gold,reason_compact
+D001,good,1,0,0,['non_regular_gold'],False,False,"stimulus_is_gold, non_regular_gold"
+D002,good,0,0,2,[],True,True,
+D003,good,0,0,2,[],True,True,
+D004,good,0,0,2,[],True,True,
+D005,good,1,0,0,['non_regular_gold'],False,False,"stimulus_is_gold, non_regular_gold"
+D006,good,0,1,0,['non_regular_imc'],False,False,"stimulus_is_imc, non_regular_imc"
+D007,good,0,0,2,[],True,True,
+D008,good,0,0,2,[],True,True,
+D009,good,0,0,2,[],True,True,
+D010,good,0,0,2,[],True,True,
+D011,good,1,0,0,['non_regular_gold'],False,False,"stimulus_is_gold, non_regular_gold"
+D012,good,1,0,0,['non_regular_gold'],False,False,"stimulus_is_gold, non_regular_gold"
+D013,good,0,0,2,[],True,True,
+D014,good,0,0,2,[],True,True,
+D015,good,0,0,2,[],True,True,
+D016,good,0,1,0,['non_regular_imc'],False,False,"stimulus_is_imc, non_regular_imc"
+D017,good,0,1,0,['non_regular_imc'],False,False,"stimulus_is_imc, non_regular_imc"
+D018,good,0,0,2,[],True,True,
+D019,good,0,0,2,[],True,True,
+D020,good,0,0,2,[],True,True,
+D021,good,0,0,2,[],True,True,
+D022,good,0,0,2,[],True,True,
+D023,good,1,0,0,['non_regular_gold'],False,False,"stimulus_is_gold, non_regular_gold"
+D024,good,0,0,2,[],True,True,
+D025,good,0,0,2,[],True,True,
+D026,good,0,0,2,[],True,True,
+D027,good,0,1,0,['non_regular_imc'],False,False,"stimulus_is_imc, non_regular_imc"
+D028,good,0,0,2,[],True,True,
+D029,good,1,0,0,['non_regular_gold'],False,False,"stimulus_is_gold, non_regular_gold"
+D030,good,1,0,0,['non_regular_gold'],False,False,"stimulus_is_gold, non_regular_gold"
+D031,good,0,0,2,[],True,True,
+D032,good,0,0,2,[],True,True,
+D033,good,0,0,2,[],True,True,
+D034,good,0,0,2,[],True,True,
+D035,good,0,0,2,[],True,True,
+D036,good,0,1,0,['non_regular_imc'],False,False,"stimulus_is_imc, non_regular_imc"
+D037,good,0,0,2,[],True,True,
+D038,good,0,0,2,[],True,True,
+D039,good,1,0,0,['non_regular_gold'],False,False,"stimulus_is_gold, non_regular_gold"
+D040,good,0,0,2,[],True,True,
+D041,bad,0,0,2,[],True,True,
+D042,bad,0,0,2,[],True,True,
+D043,bad,0,1,0,['non_regular_imc'],False,False,"stimulus_is_imc, non_regular_imc"
+D044,bad,1,0,0,['non_regular_gold'],False,False,"stimulus_is_gold, non_regular_gold"
+D045,bad,1,0,0,['non_regular_gold'],False,False,"stimulus_is_gold, non_regular_gold"
+D046,bad,0,1,0,['non_regular_imc'],False,False,"stimulus_is_imc, non_regular_imc"
+D047,bad,0,0,2,[],True,True,
+D048,bad,0,0,2,[],True,True,
+D049,bad,0,0,2,[],True,True,
+D050,bad,0,0,2,[],True,True,
+D051,bad,1,0,0,['non_regular_gold'],False,False,"stimulus_is_gold, non_regular_gold"
+D052,bad,1,0,0,['non_regular_gold'],False,False,"stimulus_is_gold, non_regular_gold"
+D053,bad,1,0,0,['non_regular_gold'],False,False,"stimulus_is_gold, non_regular_gold"
+D054,bad,0,0,2,[],True,True,
+D055,bad,0,0,2,[],True,True,
+D056,bad,0,1,0,['non_regular_imc'],False,False,"stimulus_is_imc, non_regular_imc"
+D057,bad,0,1,0,['non_regular_imc'],False,False,"stimulus_is_imc, non_regular_imc"
+D058,bad,1,0,0,['non_regular_gold'],False,False,"stimulus_is_gold, non_regular_gold"
+D059,bad,0,0,2,[],True,True,
+D060,bad,0,0,2,[],True,True,
+D061,bad,0,0,2,[],True,True,
+D062,bad,0,0,2,[],True,True,
+D063,bad,0,0,2,[],True,True,
+D064,bad,0,0,2,[],True,True,
+D065,bad,0,0,2,[],True,True,
+D066,bad,0,1,0,['non_regular_imc'],False,False,"stimulus_is_imc, non_regular_imc"
+D067,bad,0,0,2,[],True,True,
+D068,bad,0,0,2,[],True,True,
+D069,bad,0,0,2,[],True,True,
+D070,bad,0,0,2,[],True,True,
+D071,bad,0,0,2,[],True,True,
+D072,bad,0,0,2,[],True,True,
+D073,bad,0,0,2,[],True,True,
+D074,bad,0,0,2,[],True,True,
+D075,bad,0,0,2,[],True,True,
+D076,bad,1,0,0,['non_regular_gold'],False,False,"stimulus_is_gold, non_regular_gold"
+D077,bad,0,0,2,[],True,True,
+D078,bad,0,0,2,[],True,True,
+D079,bad,1,0,0,['non_regular_gold'],False,False,"stimulus_is_gold, non_regular_gold"
+D080,bad,0,0,2,[],True,True,

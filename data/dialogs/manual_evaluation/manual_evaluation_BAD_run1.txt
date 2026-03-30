@@ -1,0 +1,89 @@
+Manual Evaluation Log — BAD Diaogs (First Generation Run)
+
+Evaluator: Katharina Kampa
+Purpose: - Manual quality review after automated pipeline check
+         - Identification of candidates for Gold / IMC dialogs
+
+Review criteria applied to each dialog:
+  - Is the dialog linguistically comprehensible (despite intentional poor communication)?
+  - Does the LLM evaluation show a clear orientation? (e.g. Overall 1/2, not 4; not 6 or 7)
+  - Is the evaluation stable? (no contradictory subscales, no noise)
+  - Does the dialog stay within the intended recipe/task frame?
+  - Are the intended communication violations clearly present?
+
+Regenerate criteria (R-codes):
+  R1_OUT_OF_SCOPE        : Not within the intended recipe/task frame
+  R2_FORMAT_BROKEN       : Speaker/turns broken, unreadable
+  R3_CONTENT_ERROR       : Hard content errors (wrong values, hallucinations)
+  R4_TOO_SHORT_REPETITIVE: Too short / strong repetitions
+  R5_MEASUREMENT_ARTIFACT: Grams/percent/serving formats visible (not intended)
+  R6_CONSTRAINT_VIOLATION: Violates study plan / stimulus rules
+  R7_OTHER               : Other (with notes)
+
+Gold dialog criteria (BAD):
+  - Very clear BAD dialogs + LLM Overall 1/2 and all subscales low
+  - Used to compare human ratings with LLM-based evaluations
+
+IMC dialog criteria (BAD):
+  - Very clear BAD dialogs with highly unambiguous expected ratings
+  - Used to detect inattentive or non-compliant participants
+  - Marked with * if confirmed as IMC in second batch
+
+Note: Gold and IMC dialogs were selected after main stimulus selection to avoid biasing the overall stimulus distribution.
+
+Results — FIRST BATCH (40 BAD Dialogs)
+
+Moong Dal                                          : normal
+Bourbon Wieners                                    : normal
+Pasta with Vietnamese Pesto                        : pot. IMC
+Cobb Salad Ham Roll-ups                            : pot. Gold
+Grain-Free Apple Cinnamon Dutch Babies             : pot. Gold
+Best Ever Muffins                                  : normal
+Jeanine's Decadent Brownies                        : normal
+Red Bliss Potato Salad with Gorgonzola and Walnuts : normal
+Bread Pudding I                                    : pot. Gold
+Whole Grain Barley and Apple Porridge              : pot. IMC
+Coriander and Cumin Rubbed Pork Chops              : pot. IMC *
+Eggplant Vinaigrette                               : pot. Gold
+Tangy Southwest Coleslaw                           : pot. IMC
+Ice Cream Kolacky                                  : normal
+Mom's Margarine Cake                               : pot. Gold
+Seitan Philly Cheese Steak Sandwiches              : normal
+Strawberry Rhubarb Coffee Cake                     : pot. IMC
+Cuban-Style Pork and Sweet Potatoes                : REGENERATE — R5_MEASUREMENT_ARTIFACT (Calories in total number)
+Extreme Chocolate Cake                             : pot. Gold
+That Addicting Salad                               : normal
+Carrot Casserole                                   : normal
+Bill Yosses's Cheesecake                           : normal
+Mock Caprese Salad                                 : normal
+Orange Beef Kabobs with Grilled Fruit              : pot. Gold
+Au Gratin-Pumpkin Layered Casserole                : normal
+Minted Marinated Zucchini                          : normal
+No-Bake Energy Bites                               : pot. IMC
+Very Old Meatloaf Recipe                           : normal
+Corned Beef-Stuffed Pumpernickel                   : normal
+Turkey Tom Kha Gai                                 : normal
+Sweet and Nutty Pork Chops                         : normal
+Carrot and Sweet Potato Tzimmes                    : normal
+Layered Mousse Bites                               : normal
+Grandma's Apple Dumplings                          : normal
+White Chocolate and Passion Fruit Cheesecake       : normal
+Sticky Sweet and Sour Chicken                      : normal
+Spanish Omelet                                     : normal
+Apple Pie Filling                                  : normal
+Herbed Chuck Steaks                                : normal
+Southwest Chicken                                  : normal
+
+Summary FIRST BATCH
+
+Total dialogs reviewed  : 40
+Accepted (normal)       : 27
+Pot. Gold candidates    : 8   (Cobb Salad Ham Roll-ups, Grain-Free Apple Cinnamon Dutch Babies,
+                                Bread Pudding I, Eggplant Vinaigrette, Mom's Margarine Cake,
+                                Extreme Chocolate Cake, Orange Beef Kabobs with Grilled Fruit)
+Pot. IMC candidates     : 6   (Pasta with Vietnamese Pesto, Whole Grain Barley and Apple Porridge,
+                                Coriander and Cumin Rubbed Pork Chops *, Tangy Southwest Coleslaw,
+                                Strawberry Rhubarb Coffee Cake, No-Bake Energy Bites)
+REGENERATE              : 1
+  R5_MEASUREMENT_ARTIFACT : 1  (Cuban-Style Pork and Sweet Potatoes — Calories in total number)
+  R6_CONSTRAINT_VIOLATION : 0  (No role errors)

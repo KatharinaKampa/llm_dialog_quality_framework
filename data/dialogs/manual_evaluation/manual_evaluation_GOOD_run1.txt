@@ -1,0 +1,93 @@
+Manual Evaluation Log - GOOD Dialogs (First Generation Run)
+
+Evaluator: Katharina Kampa
+Purpose: - Manual quality review after automated pipeline check
+         - Identification of candidates for Gold / IMC dialogs
+
+Review criteria applied to each dialog:
+  - Is the dialog linguistically comprehensible?
+  - Does the LLM evaluation show a clear orientation? (e.g. Overall 6 or 7, not 4; not 1 or 2)
+  - Is the evaluation stable? (no contradictory subscales, no noise)
+  - Does the dialog stay within the intended recipe/task frame?
+
+Regenerate criteria (R-codes):
+  R1_OUT_OF_SCOPE        : Not within the intended recipe/task frame
+  R2_FORMAT_BROKEN       : Speaker/turns broken, unreadable
+  R3_CONTENT_ERROR       : Hard content errors (wrong values, hallucinations)
+  R4_TOO_SHORT_REPETITIVE: Too short / strong repetitions
+  R5_MEASUREMENT_ARTIFACT: Grams/percent/serving formats visible (not intended)
+  R6_CONSTRAINT_VIOLATION: Violates study plan / stimulus rules
+  R7_OTHER               : Other (with notes)
+
+Gold dialog criteria:
+  - Very clear GOOD dialogs + LLM Overall 6/7 and all subscales high
+  - Used to compare human ratings with LLM-based evaluations
+
+IMC dialog criteria:
+  - Very clear GOOD dialogs with highly unambiguous expected ratings
+  - Used to detect inattentive or non-compliant participants
+
+Note: Gold and IMC dialogs were selected after main stimulus selection to avoid biasing the overall stimulus distribution.
+
+
+Results - FIRST BATCH (40 GOOD Dialogs)
+------------------------------------------------------------
+
+Moong Dal                                          : pot. Gold
+Bourbon Wieners                                    : normal
+Pasta with Vietnamese Pesto                        : REGENERATE - R5_MEASUREMENT_ARTIFACT (Fat in %)
+Cobb Salad Ham Roll-ups                            : normal
+Grain-Free Apple Cinnamon Dutch Babies             : normal
+Best Ever Muffins                                  : pot. Gold
+Jeanine's Decadent Brownies                        : normal
+Red Bliss Potato Salad with Gorgonzola and Walnuts : normal
+Bread Pudding I                                    : normal
+Whole Grain Barley and Apple Porridge              : pot. Gold
+Coriander and Cumin Rubbed Pork Chops              : normal
+Eggplant Vinaigrette                               : pot. Gold
+Tangy Southwest Coleslaw                           : pot. Gold
+Ice Cream Kolacky                                  : pot. IMC
+Mom's Margarine Cake                               : normal
+Seitan Philly Cheese Steak Sandwiches              : normal
+Strawberry Rhubarb Coffee Cake                     : normal
+Cuban-Style Pork and Sweet Potatoes                : REGENERATE - R5_MEASUREMENT_ARTIFACT (Carb in %)
+Extreme Chocolate Cake                             : pot. IMC
+That Addicting Salad                               : pot. Gold
+Carrot Casserole                                   : normal
+Bill Yosses's Cheesecake                           : normal
+Mock Caprese Salad                                 : REGENERATE - R4_TOO_SHORT_REPETITIVE (sehr kurze Turns)
+Orange Beef Kabobs with Grilled Fruit              : normal
+Au Gratin-Pumpkin Layered Casserole                : REGENERATE - R5_MEASUREMENT_ARTIFACT (Fat in g & Calories in total number)
+Minted Marinated Zucchini                          : REGENERATE - R4_TOO_SHORT_REPETITIVE (sehr kurze Turns)
+No-Bake Energy Bites                               : REGENERATE - R5_MEASUREMENT_ARTIFACT (fat in %)
+Very Old Meatloaf Recipe                           : normal
+Corned Beef-Stuffed Pumpernickel                   : pot. IMC
+Turkey Tom Kha Gai                                 : normal
+Sweet and Nutty Pork Chops                         : normal
+Carrot and Sweet Potato Tzimmes                    : REGENERATE - R5_MEASUREMENT_ARTIFACT (fat in % & carb in %)
+Layered Mousse Bites                               : REGENERATE - R4_TOO_SHORT_REPETITIVE (kurze Turns)
+Grandma's Apple Dumplings                          : REGENERATE - R5_MEASUREMENT_ARTIFACT (Fat in %)
+White Chocolate and Passion Fruit Cheesecake       : normal
+Sticky Sweet and Sour Chicken                      : pot. IMC
+Spanish Omelet                                     : normal
+Apple Pie Filling                                  : REGENERATE - R4_TOO_SHORT_REPETITIVE (kurze Turns)
+Herbed Chuck Steaks                                : pot. Gold
+Southwest Chicken                                  : pot. Gold
+
+Summary FIRST BATCH
+
+Total dialogs reviewed  : 40
+Accepted (normal)       : 22
+Pot. Gold candidates    : 10  (Moong Dal, Best Ever Muffins, Whole Grain Barley and Apple Porridge,
+                                Eggplant Vinaigrette, Tangy Southwest Coleslaw, That Addicting Salad,
+                                Herbed Chuck Steaks, Southwest Chicken)
+Pot. IMC candidates     : 4   (Ice Cream Kolacky, Extreme Chocolate Cake,
+                                Corned Beef-Stuffed Pumpernickel, Sticky Sweet and Sour Chicken)
+REGENERATE              : 10
+  R4_TOO_SHORT_REPETITIVE : 4  (Mock Caprese Salad, Minted Marinated Zucchini,
+                                  Layered Mousse Bites, Apple Pie Filling)
+  R5_MEASUREMENT_ARTIFACT : 6  (Pasta with Vietnamese Pesto, Cuban-Style Pork and Sweet Potatoes,
+                                  Au Gratin-Pumpkin Layered Casserole, No-Bake Energy Bites,
+                                  Carrot and Sweet Potato Tzimmes, Grandma's Apple Dumplings)
+  R6_CONSTRAINT_VIOLATION : 0  (No role errors - Prompt engineering is stable)
+

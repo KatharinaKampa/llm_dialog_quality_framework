@@ -1,0 +1,100 @@
+Manual Evaluation Log — BAD Dialogs (Second Generation Run)
+
+Evaluator: Katharina Kampa
+Purpose: - Manual quality review of regenerated dialogs (second run)
+         - Final Gold / IMC dialog selection
+
+For review criteria, R-Criteria-Codes, and Gold/IMC definitions, see manual_evaluation_BAD_run1.txt.
+
+Note on * markers: IMC candidates marked with * were confirmed as
+final IMC dialogs after cross-checking with the GOOD condition selection,
+to ensure no recipe appeared as both GOOD and BAD IMC dialog.
+
+Results — SECOND BATCH (40 BAD Dialogs, after filtering & regeneration)
+
+Moong Dal                                          : normal
+Bourbon Wieners                                    : normal
+Pasta with Vietnamese Pesto                        : pot. Gold       [reclassified from IMC — clearer Gold profile]
+Cobb Salad Ham Roll-ups                            : pot. Gold
+Grain-Free Apple Cinnamon Dutch Babies             : pot. Gold
+Best Ever Muffins                                  : normal
+Jeanine's Decadent Brownies                        : normal
+Red Bliss Potato Salad with Gorgonzola and Walnuts : normal
+Bread Pudding I                                    : pot. Gold
+Whole Grain Barley and Apple Porridge              : normal          [downgraded from IMC — insufficient clarity]
+Coriander and Cumin Rubbed Pork Chops              : pot. IMC *      [confirmed IMC]
+Eggplant Vinaigrette                               : pot. Gold
+Tangy Southwest Coleslaw                           : pot. IMC *      [confirmed IMC]
+Ice Cream Kolacky                                  : normal
+Mom's Margarine Cake                               : pot. Gold
+Seitan Philly Cheese Steak Sandwiches              : normal
+Strawberry Rhubarb Coffee Cake                     : pot. IMC *      [confirmed IMC]
+Cuban-Style Pork and Sweet Potatoes                : normal          [regenerated — accepted]
+Extreme Chocolate Cake                             : pot. Gold
+That Addicting Salad                               : normal
+Carrot Casserole                                   : normal
+Bill Yosses's Cheesecake                           : normal
+Mock Caprese Salad                                 : normal
+Orange Beef Kabobs with Grilled Fruit              : pot. Gold
+Au Gratin-Pumpkin Layered Casserole                : normal
+Minted Marinated Zucchini                          : normal
+No-Bake Energy Bites                               : pot. IMC *      [confirmed IMC]
+Very Old Meatloaf Recipe                           : normal
+Corned Beef-Stuffed Pumpernickel                   : normal
+Turkey Tom Kha Gai                                 : normal
+Sweet and Nutty Pork Chops                         : normal
+Carrot and Sweet Potato Tzimmes                    : normal
+Layered Mousse Bites                               : normal
+Grandma's Apple Dumplings                          : normal
+White Chocolate and Passion Fruit Cheesecake       : normal
+Sticky Sweet and Sour Chicken                      : normal
+Spanish Omelet                                     : normal
+Apple Pie Filling                                  : normal
+Herbed Chuck Steaks                                : normal
+Southwest Chicken                                  : normal
+
+Final GOLD Dialog selection — BAD condition
+
+Selected Gold dialogs (BAD):
+  - Pasta with Vietnamese Pesto
+  - Cobb Salad Ham Roll-ups
+  - Grain-Free Apple Cinnamon Dutch Babies
+  - Bread Pudding I
+  - Eggplant Vinaigrette
+  - Mom's Margarine Cake
+  - Extreme Chocolate Cake
+  - Orange Beef Kabobs with Grilled Fruit
+
+Final IMC Dialog selection — BAD condition
+
+Selected IMC dialogs (BAD) — all confirmed (*):
+  - Coriander and Cumin Rubbed Pork Chops
+  - Tangy Southwest Coleslaw
+  - Strawberry Rhubarb Coffee Cake
+  - No-Bake Energy Bites
+
+Summary SECOND BATCH
+
+Total dialogs reviewed  : 40
+Accepted (normal)       : 28
+Gold (confirmed)        : 8
+IMC (confirmed *)       : 4
+REGENERATE              : 0  (no further issues in second run)
+Third generation run    : not required
+
+Final BAD corpus        : 40 dialogs (all structurally valid)
+
+Cimbined Corpus Summary (GOOD + BAD)
+
+Total dialogs           : 80
+  → GOOD                : 40
+  → BAD                 : 40
+Gold dialogs total      : 16  (8 GOOD + 8 BAD)
+IMC dialogs total       : 8   (4 GOOD + 4 BAD)
+  → Used in Study A     : 10 per rater (8 regular + 1 IMC + 1 Gold)
+Initial generation runs : 2   (11 dialogs regenerated in second run)
+Total initial generated : 91  (80 accepted + 11 regenerated)
+Exclusion rate          : 12.1% (11/91)
+  R4_TOO_SHORT_REPETITIVE : 4 cases (all GOOD condition)
+  R5_MEASUREMENT_ARTIFACT : 7 cases (6 GOOD + 1 BAD)
+  R6_CONSTRAINT_VIOLATION : 0 cases — prompt engineering confirmed stable

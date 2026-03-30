@@ -1,0 +1,81 @@
+dialog_id,recipe_title,recipe_type,condition,is_gold,is_imc,remaining_slots
+D001,Moong Dal,savory,good,1,0,2
+D002,Bourbon Wieners,sweet,good,0,0,2
+D003,Cobb Salad Ham Roll-ups,savory,good,0,0,2
+D004,Grain-Free Apple Cinnamon Dutch Babies,sweet,good,0,0,2
+D005,Best Ever Muffins,sweet,good,1,0,2
+D006,Jeanine's Decadent Brownies,sweet,good,0,1,2
+D007,Red Bliss Potato Salad with Gorgonzola and Walnuts,sweet,good,0,0,2
+D008,Bread Pudding I,sweet,good,0,0,2
+D009,Whole Grain Barley and Apple Porridge,sweet,good,0,0,2
+D010,Coriander and Cumin Rubbed Pork Chops,savory,good,0,0,2
+D011,Eggplant Vinaigrette,savory,good,1,0,2
+D012,Tangy Southwest Coleslaw,savory,good,1,0,2
+D013,Ice Cream Kolacky,sweet,good,0,0,2
+D014,Mom's Margarine Cake,sweet,good,0,0,2
+D015,Seitan Philly Cheese Steak Sandwiches,savory,good,0,0,2
+D016,Strawberry Rhubarb Coffee Cake,sweet,good,0,1,2
+D017,Extreme Chocolate Cake,sweet,good,0,1,2
+D018,That Addicting Salad,savory,good,0,0,2
+D019,Carrot Casserole,savory,good,0,0,2
+D020,Bill Yosses's Cheesecake,sweet,good,0,0,2
+D021,Orange Beef Kabobs with Grilled Fruit,savory,good,0,0,2
+D022,Very Old Meatloaf Recipe,savory,good,0,0,2
+D023,Corned Beef-Stuffed Pumpernickel,savory,good,1,0,2
+D024,Turkey Tom Kha Gai,savory,good,0,0,2
+D025,Sweet and Nutty Pork Chops,savory,good,0,0,2
+D026,White Chocolate and Passion Fruit Cheesecake,sweet,good,0,0,2
+D027,Sticky Sweet and Sour Chicken,savory,good,0,1,2
+D028,Spanish Omelet,savory,good,0,0,2
+D029,Herbed Chuck Steaks,savory,good,1,0,2
+D030,Southwest Chicken,savory,good,1,0,2
+D031,Pasta with Vietnamese Pesto,savory,good,0,0,2
+D032,Cuban-Style Pork and Sweet Potatoes,savory,good,0,0,2
+D033,Mock Caprese Salad,savory,good,0,0,2
+D034,Au Gratin-Pumpkin Layered Casserole,savory,good,0,0,2
+D035,Minted Marinated Zucchini,savory,good,0,0,2
+D036,No-Bake Energy Bites,sweet,good,0,1,2
+D037,Carrot and Sweet Potato Tzimmes,savory,good,0,0,2
+D038,Layered Mousse Bites,sweet,good,0,0,2
+D039,Grandma's Apple Dumplings,sweet,good,1,0,2
+D040,Apple Pie Filling,sweet,good,0,0,2
+D041,Moong Dal,savory,bad,0,0,2
+D042,Bourbon Wieners,sweet,bad,0,0,2
+D043,Pasta with Vietnamese Pesto,savory,bad,0,1,2
+D044,Cobb Salad Ham Roll-ups,savory,bad,1,0,2
+D045,Grain-Free Apple Cinnamon Dutch Babies,savory,bad,1,0,2
+D046,Best Ever Muffins,sweet,bad,0,1,2
+D047,Jeanine's Decadent Brownies,sweet,bad,0,0,2
+D048,Red Bliss Potato Salad with Gorgonzola and Walnuts,sweet,bad,0,0,2
+D049,Bread Pudding I,sweet,bad,0,0,2
+D050,Whole Grain Barley and Apple Porridge,sweet,bad,0,0,2
+D051,Coriander and Cumin Rubbed Pork Chops,savory,bad,1,0,2
+D052,Eggplant Vinaigrette,savory,bad,1,0,2
+D053,Tangy Southwest Coleslaw,savory,bad,1,0,2
+D054,Ice Cream Kolacky,sweet,bad,0,0,2
+D055,Mom's Margarine Cake,sweet,bad,0,0,2
+D056,Seitan Philly Cheese Steak Sandwiches,savory,bad,0,1,2
+D057,Strawberry Rhubarb Coffee Cake,sweet,bad,0,1,2
+D058,Extreme Chocolate Cake,sweet,bad,1,0,2
+D059,That Addicting Salad,savory,bad,0,0,2
+D060,Carrot Casserole,savory,bad,0,0,2
+D061,Bill Yosses's Cheesecake,sweet,bad,0,0,2
+D062,Mock Caprese Salad,savory,bad,0,0,2
+D063,Orange Beef Kabobs with Grilled Fruit,savory,bad,0,0,2
+D064,Au Gratin-Pumpkin Layered Casserole,savory,bad,0,0,2
+D065,Minted Marinated Zucchini,savory,bad,0,0,2
+D066,No-Bake Energy Bites,sweet,bad,0,1,2
+D067,Very Old Meatloaf Recipe,savory,bad,0,0,2
+D068,Corned Beef-Stuffed Pumpernickel,savory,bad,0,0,2
+D069,Turkey Tom Kha Gai,savory,bad,0,0,2
+D070,Sweet and Nutty Pork Chops,savory,bad,0,0,2
+D071,Carrot and Sweet Potato Tzimmes,savory,bad,0,0,2
+D072,Layered Mousse Bites,sweet,bad,0,0,2
+D073,Grandma's Apple Dumplings,sweet,bad,0,0,2
+D074,White Chocolate and Passion Fruit Cheesecake,sweet,bad,0,0,2
+D075,Sticky Sweet and Sour Chicken,savory,bad,0,0,2
+D076,Spanish Omelet,savory,bad,1,0,2
+D077,Apple Pie Filling,sweet,bad,0,0,2
+D078,Herbed Chuck Steaks,savory,bad,0,0,2
+D079,Southwest Chicken,savory,bad,1,0,2
+D080,Cuban-Style Pork and Sweet Potatoes,savory,bad,0,0,2

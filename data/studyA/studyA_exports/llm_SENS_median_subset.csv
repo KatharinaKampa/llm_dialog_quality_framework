@@ -1,0 +1,55 @@
+dialog_id,recipe_title,recipe_type,condition,is_gold,gold_expected_min,gold_expected_max,is_imc,imc_expected_overall,llm_median_clarity,llm_median_relevance,llm_median_truthfulness,llm_median_logic_coherence,llm_median_respect_appreciation,llm_median_relational_appropriateness,llm_median_feedback_depth,llm_median_overall_quality,n_runs,median_valid
+D002,Bourbon Wieners,sweet,good,0,,,0,,6.0,6.0,6.0,6.0,7.0,7.0,6.0,6.0,3.0,1.0
+D003,Cobb Salad Ham Roll-ups,savory,good,0,,,0,,6.0,6.0,6.0,6.0,7.0,7.0,6.0,6.0,3.0,1.0
+D004,Grain-Free Apple Cinnamon Dutch Babies,sweet,good,0,,,0,,6.0,6.0,6.0,5.0,7.0,7.0,6.0,6.0,3.0,1.0
+D007,Red Bliss Potato Salad with Gorgonzola and Walnuts,sweet,good,0,,,0,,7.0,7.0,7.0,6.0,7.0,7.0,6.0,7.0,3.0,1.0
+D008,Bread Pudding I,sweet,good,0,,,0,,6.0,6.0,6.0,5.0,6.0,6.0,5.0,6.0,3.0,1.0
+D009,Whole Grain Barley and Apple Porridge,sweet,good,0,,,0,,6.0,6.0,6.0,5.0,6.0,6.0,5.0,6.0,3.0,1.0
+D010,Coriander and Cumin Rubbed Pork Chops,savory,good,0,,,0,,6.0,6.0,6.0,5.0,7.0,7.0,6.0,6.0,3.0,1.0
+D013,Ice Cream Kolacky,sweet,good,0,,,0,,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,3.0,1.0
+D014,Mom's Margarine Cake,sweet,good,0,,,0,,6.0,6.0,6.0,6.0,7.0,7.0,6.0,6.0,3.0,1.0
+D015,Seitan Philly Cheese Steak Sandwiches,savory,good,0,,,0,,6.0,6.0,6.0,5.0,7.0,7.0,6.0,6.0,3.0,1.0
+D018,That Addicting Salad,savory,good,0,,,0,,6.0,6.0,6.0,6.0,7.0,7.0,6.0,6.0,3.0,1.0
+D019,Carrot Casserole,savory,good,0,,,0,,6.0,6.0,6.0,6.0,7.0,7.0,6.0,6.0,3.0,1.0
+D020,Bill Yosses's Cheesecake,sweet,good,0,,,0,,6.0,6.0,6.0,6.0,7.0,7.0,6.0,6.0,3.0,1.0
+D021,Orange Beef Kabobs with Grilled Fruit,savory,good,0,,,0,,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,3.0,1.0
+D022,Very Old Meatloaf Recipe,savory,good,0,,,0,,6.0,6.0,6.0,5.0,7.0,7.0,6.0,6.0,3.0,1.0
+D024,Turkey Tom Kha Gai,savory,good,0,,,0,,6.0,6.0,6.0,5.0,6.0,6.0,5.0,6.0,3.0,1.0
+D025,Sweet and Nutty Pork Chops,savory,good,0,,,0,,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,3.0,1.0
+D026,White Chocolate and Passion Fruit Cheesecake,sweet,good,0,,,0,,6.0,6.0,6.0,5.0,7.0,7.0,6.0,6.0,3.0,1.0
+D028,Spanish Omelet,savory,good,0,,,0,,6.0,6.0,6.0,5.0,7.0,7.0,6.0,6.0,3.0,1.0
+D031,Pasta with Vietnamese Pesto,savory,good,0,,,0,,6.0,6.0,6.0,5.0,7.0,7.0,6.0,6.0,3.0,1.0
+D032,Cuban-Style Pork and Sweet Potatoes,savory,good,0,,,0,,6.0,6.0,6.0,5.0,7.0,7.0,6.0,6.0,3.0,1.0
+D033,Mock Caprese Salad,savory,good,0,,,0,,6.0,6.0,6.0,5.0,6.0,6.0,6.0,6.0,3.0,1.0
+D034,Au Gratin-Pumpkin Layered Casserole,savory,good,0,,,0,,6.0,6.0,6.0,5.0,7.0,7.0,6.0,6.0,3.0,1.0
+D035,Minted Marinated Zucchini,savory,good,0,,,0,,6.0,6.0,6.0,5.0,7.0,7.0,6.0,6.0,3.0,1.0
+D037,Carrot and Sweet Potato Tzimmes,savory,good,0,,,0,,6.0,6.0,6.0,5.0,7.0,7.0,6.0,6.0,3.0,1.0
+D038,Layered Mousse Bites,sweet,good,0,,,0,,6.0,6.0,6.0,5.0,6.0,6.0,6.0,6.0,3.0,1.0
+D040,Apple Pie Filling,sweet,good,0,,,0,,6.0,6.0,6.0,5.0,7.0,7.0,6.0,6.0,3.0,1.0
+D041,Moong Dal,savory,bad,0,,,0,,2.0,3.0,4.0,2.0,1.0,1.0,2.0,1.0,3.0,1.0
+D042,Bourbon Wieners,sweet,bad,0,,,0,,1.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0
+D047,Jeanine's Decadent Brownies,sweet,bad,0,,,0,,1.0,2.0,4.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0
+D048,Red Bliss Potato Salad with Gorgonzola and Walnuts,sweet,bad,0,,,0,,2.0,3.0,2.0,2.0,1.0,1.0,2.0,1.0,3.0,1.0
+D049,Bread Pudding I,sweet,bad,0,,,0,,2.0,3.0,4.0,2.0,1.0,1.0,2.0,1.0,3.0,1.0
+D050,Whole Grain Barley and Apple Porridge,sweet,bad,0,,,0,,2.0,3.0,2.0,2.0,1.0,1.0,2.0,1.0,3.0,1.0
+D054,Ice Cream Kolacky,sweet,bad,0,,,0,,2.0,3.0,4.0,2.0,1.0,1.0,2.0,1.0,3.0,1.0
+D055,Mom's Margarine Cake,sweet,bad,0,,,0,,1.0,2.0,3.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0
+D059,That Addicting Salad,savory,bad,0,,,0,,1.0,2.0,3.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0
+D060,Carrot Casserole,savory,bad,0,,,0,,1.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0
+D061,Bill Yosses's Cheesecake,sweet,bad,0,,,0,,2.0,3.0,4.0,2.0,1.0,1.0,2.0,1.0,3.0,1.0
+D062,Mock Caprese Salad,savory,bad,0,,,0,,2.0,3.0,4.0,2.0,1.0,1.0,2.0,1.0,3.0,1.0
+D063,Orange Beef Kabobs with Grilled Fruit,savory,bad,0,,,0,,1.0,2.0,4.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0
+D064,Au Gratin-Pumpkin Layered Casserole,savory,bad,0,,,0,,2.0,3.0,4.0,2.0,1.0,1.0,2.0,1.0,3.0,1.0
+D065,Minted Marinated Zucchini,savory,bad,0,,,0,,2.0,3.0,2.0,2.0,1.0,1.0,2.0,1.0,3.0,1.0
+D067,Very Old Meatloaf Recipe,savory,bad,0,,,0,,1.0,2.0,4.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0
+D068,Corned Beef-Stuffed Pumpernickel,savory,bad,0,,,0,,2.0,3.0,2.0,2.0,1.0,1.0,2.0,1.0,3.0,1.0
+D069,Turkey Tom Kha Gai,savory,bad,0,,,0,,2.0,2.0,4.0,2.0,1.0,1.0,1.0,1.0,3.0,1.0
+D070,Sweet and Nutty Pork Chops,savory,bad,0,,,0,,1.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0
+D071,Carrot and Sweet Potato Tzimmes,savory,bad,0,,,0,,1.0,2.0,3.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0
+D072,Layered Mousse Bites,sweet,bad,0,,,0,,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0
+D073,Grandma's Apple Dumplings,sweet,bad,0,,,0,,2.0,3.0,4.0,2.0,1.0,1.0,2.0,1.0,3.0,1.0
+D074,White Chocolate and Passion Fruit Cheesecake,sweet,bad,0,,,0,,1.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0
+D075,Sticky Sweet and Sour Chicken,savory,bad,0,,,0,,2.0,2.0,4.0,2.0,1.0,1.0,2.0,1.0,3.0,1.0
+D077,Apple Pie Filling,sweet,bad,0,,,0,,1.0,2.0,3.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0
+D078,Herbed Chuck Steaks,savory,bad,0,,,0,,1.0,2.0,3.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0
+D080,Cuban-Style Pork and Sweet Potatoes,savory,bad,0,,,0,,1.0,2.0,3.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0
