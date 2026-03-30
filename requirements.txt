@@ -1,0 +1,102 @@
+# requirements.txt
+# Python dependencies for all notebooks and HF-Space interfaces in this repository.
+# All notebooks were developed and run in Google Colaboratory (Python 3).
+#
+# Installation (local):
+#   pip install -r requirements.txt
+#
+# Note on Google Colab:
+#   Most packages below are pre-installed in Colab.
+#   Packages requiring explicit !pip install in the notebooks are marked (*)
+#
+# Note on HuggingFace models (downloaded at runtime):
+#   - all-MiniLM-L6-v2                                   (SentenceTransformer — grice_relevance, hargie_feedback)
+#   - paraphrase-multilingual-MiniLM-L12-v2              (SentenceTransformer — watzlawick_disturbance, hargie_feedback)
+#   - MoritzLaurer/deberta-v3-large-zeroshot-v1.1-all-33 (zero-shot — thun_appeal, watzlawick_logic)
+#   - cardiffnlp/twitter-roberta-base-sentiment          (sentiment — thun_relation)
+#   - cross-encoder/nli-deberta-v3-large                 (NLI — grice_truth, rogers_respect)
+#   - roberta-base                                       (BERTScore — grice_precision, grice_relevance)
+#
+# Note on spaCy model (install once):
+#   python -m spacy download en_core_web_sm
+#
+# Note on R packages:
+#   See [R Packages] section at the end of this file.
+#   Install in R via: install.packages(c("tidyverse", "readr", "janitor", "boot", "pROC", "irr"))
+
+# Core data science
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Machine learning & NLP
+torch>=2.0.0
+transformers>=4.40.0
+sentence-transformers>=2.7.0
+scikit-learn>=1.3.0
+nltk>=3.8.0
+spacy>=3.7.0
+
+# Text analysis
+textstat>=0.7.3           # (*)  Flesch Reading Ease (grice_clarity)
+textblob>=0.17.1          # (*)  Sentiment / subjectivity (thun_self)
+bert-score>=0.3.13        # (*)  BERTScore F1 (grice_precision, grice_relevance)
+
+# Topic modelling
+bertopic>=0.16.0          # (*)  BERTopic (pipeline evaluation, Ch. 7.1)
+
+# LLM API
+openai>=1.30.0            # OpenAI-compatible client for AcademicCloud SAIA API
+                          # api_key="" in all notebooks — insert at runtime
+                          # Rate-limit handling: exponential backoff + jitter (max 120s)
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.13.0
+
+# Notebook / UI utilities (Colab)
+ipywidgets>=8.0.0         # (*)  Interactive rating UI (manual evaluation sections)
+tqdm>=4.66.0
+
+# HF Spaces
+gradio==5.49.1            # UI framework for all three HF Spaces
+huggingface_hub>=0.23.0   # hf_hub_download, HfApi (private dataset access)
+                          # Requires HF_TOKEN as Space Secret
+
+# Google Colab utilities
+# google-colab            # pre-installed in Colab only
+
+
+# R Packages (for r_scripts/)
+#
+# --- Study A (02_studyA_primary_and_sens_analysis.R) ---
+# install.packages(c(
+#     "tidyverse",    # data wrangling + ggplot2
+#     "readr",        # fast CSV reading
+#     "janitor",      # clean_names(), column normalization
+#     "boot",         # bootstrap (custom boot_ci, stratified, R=5000)
+#     "pROC",         # ROC-AUC (H4/H5)
+#     "irr"           # ICC(2,2) + ICC(2,1)/(2,3) for LLM intra-model reliability
+# ))
+# set.seed(1234) at script start
+#
+# Study B (studyB_analysis.R)
+# install.packages(c(
+#     "tidyverse",    # data wrangling + ggplot2 + purrr
+#     "car",          # ANCOVA type III (Anova())
+#     "emmeans",      # estimated marginal means + pairwise contrasts
+#     "effectsize",   # eta_squared, cohens_d (partial eta²)
+#     "mediation",    # bootstrap mediation H5 (5000 sims, BCa)
+#     "lme4",         # ICC check via lmer (recipe-level clustering)
+#     "performance",  # icc() from lmer null-model
+#     "parameters",   # model parameters helper
+#     "boot",         # BCa bootstrap CIs for ANCOVA (R=5000, set.seed(42))
+#     "rstatix",      # helper stats
+#     "ggpubr",       # publication-ready plots
+#     "patchwork",    # combine ggplot panels
+#     "sandwich",     # cluster-robust SEs (vcovCL, if recipe ICC > .05)
+#     "lmtest"        # coeftest with sandwich SEs
+# ))
+# set.seed(42) inside run_ancova() for bootstrap
+#
+# For exact package versions: r_scripts/session_info.txt
