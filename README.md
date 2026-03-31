@@ -1,9 +1,8 @@
-# Können LLMs gut diskutieren? — Research Repository
+# Können LLMs gut diskutieren? - Research Repository
 
 **Master's Thesis | Katharina Kampa | University of Regensburg, 2026**
 Chair of Digital Humanities, Institute for Information and Media, Language and Culture (I:IMSK)
 
----
 
 ## Project Overview
 
@@ -15,12 +14,11 @@ Rogers, Hargie).
 
 The multi-stage research design comprises:
 
-- **Study A** — Validation study: Comparison of LLM evaluator ratings against a
+- **Study A** - Validation study: Comparison of LLM evaluator ratings against a
   human gold standard (N = 50 dialogs, 16 raters)
 - **Study B** — Online experiment: Causal effect of dialog quality on
   human users (N = 139)
 
----
 
 ## Repository Structure
 
@@ -119,7 +117,7 @@ llm-dialogue-quality-framework/
 │       └── StudyB_QA_and_Merge.ipynb
 │
 ├── r_scripts/
-│   ├── 02_studyA_primary_and_sens_analysis.R
+│   ├── studyA_analysis.R
 │   ├── studyB_analysis.R
 │   └── session_info.txt
 │
@@ -138,7 +136,6 @@ llm-dialogue-quality-framework/
     └── hf_spaces_README.md
 ```
 
----
 
 ## Data
 
@@ -160,7 +157,7 @@ and is not publicly available. The 40 selected recipes are available as
 | Gold dialogs | 16 (8G+8B) | Main corpus | LLM vs. human comparison |
 | IMC dialogs | 8 (4G+4B) | Main corpus | Attention check |
 
-### Study A — Data Flow
+### Study A - Data Flow
 
 ```
 HF Space (main data collection)
@@ -185,10 +182,10 @@ All exclusion criteria applied (QA-A1–A5, flag_long_duration).
 **SENS dataset (N=54 dialogs):**
 All QA criteria lifted (except listwise deletion for missing values).
 
-### Study B — Stimulus Selection and Preparation
+### Study B - Stimulus Selection and Preparation
 
 ```
-1) PRE-CHECK (Study A data)
+1) Pre-Check (Study A data)
 human_PRIMARY_gold_dialog_level.csv  +  llm_PRIMARY_median_subset.csv
         ↓
 Prepare_Stimuli_StudyB.ipynb
@@ -197,7 +194,7 @@ studyB_recipe_pairs_with_deltas.csv     ← all pairs with deltas + rank_score
 studyB_pass_pool_pairs.csv              ← pairs passing pre-check gate
 studyB_top_pool_pairs.csv               ← top 18 by rank_score
 
-2) MERGE STIMULI + NUTRITION DATA
+2) Merge stimuli and nutrition data
 all_recipe.csv (university-internal)  +  recipe_masterlist.csv
         ↓
 Study_B_Stimuli_and_Seed_Builder.ipynb
@@ -206,18 +203,18 @@ all_recipe_filtered_by_masterlist.csv   ← 40 recipes with all nutrition column
 studyB_stimuli_information.csv          ← 80 dialogs + nutrition data merged
 studyB_stimuli.csv                      ← final 34 dialogs (17 pairs)
 
-3) SEED FILES
+3) Seed files
 studyB_assignment_seed.csv              ← main Study B (4+7 slots/dialog)
 studyB_pilot_assignment_seed.csv        ← mini-pilot (18 pairs, 4 slots/dialog)
 
-4) MINI-PILOT (2nd validation step)
+4) Mini-Pilot (2nd validation step)
 HF Space (N=34) + studyB_pilot_assignment_seed.csv + studyB_stimuli.csv
         ↓
 pilot_all_ratings.csv                   ← mini-pilot raw data
         ↓
 Mini_Pilot_StudyB_Auswertung.ipynb
         ↓
-Decision: all 17 pairs RETAIN (100% choice agreement, D=4.68)
+Decision: all 17 pairs retain (100% choice agreement, D=4.68)
 ```
 
 **Pre-Check Gate (Study B, Step 1):**
@@ -231,7 +228,6 @@ Decision: all 17 pairs RETAIN (100% choice agreement, D=4.68)
 
 Ranking score: sum of standardized human and LLM overall deltas.
 
----
 
 ## Notebooks
 
@@ -244,7 +240,7 @@ Full package list: `requirements.txt`.
 |---|---|---|
 | `GOOD_Dialogs_MA.ipynb` | 40 GOOD dialogs; single-API-call design; exploratory LLM evaluation (1 run); 15 rule-based sub-metrics (NLI, BERTScore, cosine, zero-shot, sentiment, Flesch) | 4.2, 5.2, 5.3 |
 | `BAD_Dialogs_MA.ipynb` | 40 BAD dialogs; identical structure | 4.2, 5.2, 5.3 |
-| `Practice-Dialogs_GOOD.ipynb` | 6 GOOD practice dialogs based on `masterlist_GOLD.csv`; simplified sub-metric implementation† | 5.3 |
+| `Practice-Dialogs_GOOD.ipynb` | 6 GOOD practice dialogs based on `masterlist_GOLD.csv`; simplified submetric implementation† | 5.3 |
 | `Practice-Dialogs_BAD.ipynb` | 6 BAD practice dialogs; identical simplification† | 5.3 |
 
 > † Deviating implementation in practice notebooks:
@@ -263,7 +259,7 @@ Full package list: `requirements.txt`.
 
 | Notebook | Content | Chapter |
 |---|---|---|
-| `Study_A_Stimuli_Seed_Practice_Builder.ipynb` | D001–D080; recipe type assignment; Gold/IMC IDs; slot file; `gold_practice.csv` | 8.1 |
+| `Study_A_Stimuli_Seed_Practice_Builder.ipynb` | D001-D080; recipe type assignment; Gold/IMC IDs; slot file; `gold_practice.csv` | 8.1 |
 | `Mini_Pilot_StudyA.ipynb` | N=3; functionality test; no statistical analysis | 8.1 |
 | `Prepare_Stimuli_StudyB.ipynb` | Pre-check gate; pair table with human/LLM deltas + rank_score; `studyB_top_pool_pairs.csv` (top 18) | 9.1 |
 | `Study_B_Stimuli_and_Seed_Builder.ipynb` | Merge recipe nutrition data from `all_recipe.csv` via `(title_key, ing_key)` join → `studyB_stimuli_information.csv`; final 34 dialogs → `studyB_stimuli.csv`; `studyB_assignment_seed.csv` (base_slots=4, extra_recipes=7, smallest_human_delta); `studyB_pilot_assignment_seed.csv` (18 pairs, 4 slots) | 9.1 |
@@ -273,7 +269,7 @@ Full package list: `requirements.txt`.
 
 | Notebook | Content | Chapter |
 |---|---|---|
-| `StudyA_Analysis_Human_LLM.ipynb` | Human ratings pipeline (QA flags, PRIMARY/SENS export, audit tables); LLM evaluation (3 runs, resume-capable, exponential backoff on 429); hypothesis overview (H1–H9); dataset inventory | 8.1–8.2 |
+| `StudyA_Analysis_Human_LLM.ipynb` | Human ratings pipeline (QA flags, PRIMARY/SENS export, audit tables); LLM evaluation (3 runs, resume-capable, exponential backoff on 429); hypothesis overview (H1–H9); dataset inventory | 8.1-8.2 |
 | `StudyB_QA_and_Merge.ipynb` | QA pipeline: merge individual `ratings_*.csv` → `studyB_all_ratings_merged.csv`; preregistered exclusion criteria PRIMARY (QA-B1–B4 + listwise) → `studyB_all_ratings_cleaned.csv`; SENS (IMC + listwise only) → `studyB_all_ratings_cleaned_SENS.csv`; LLM merge (left join on `dialog_id`) → `studyB_merged_with_llm.csv` | 11.1 |
 
 **Outputs of `StudyA_Analysis_Human_LLM.ipynb`:**
@@ -291,11 +287,10 @@ Full package list: `requirements.txt`.
 | `audit_PRIMARY_rater_level.csv` | Status (KEPT/EXCLUDED) + reasons per rater |
 | `audit_PRIMARY_dialog_level.csv` | kept_for_human_gold + reasons per dialog |
 
----
 
 ## R Scripts
 
-### `02_studyA_primary_and_sens_analysis.R`
+### `studyA_analysis.R`
 
 Implements all preregistered hypothesis tests for Study A
 (PRIMARY N=50 + SENS N=54, stratified bootstrap R=5,000):
@@ -369,7 +364,7 @@ performance, parameters, boot, rstatix, ggpubr, patchwork, sandwich, lmtest
 
 | File | Content |
 |---|---|
-| `results_summary_PRIMARY/SENS.csv` | Results table H1–H3 |
+| `results_summary_PRIMARY/SENS.csv` | Results table H1-H3 |
 | `results_PRIMARY/SENS.txt` | Full console log |
 | `studyB_plot_prepost.png` | Pre-/post-trajectories H1, H2a, H2b (±SE) |
 | `studyB_plot_dq_subscales.png` | Dialog quality subscales (H4) |
@@ -379,20 +374,18 @@ performance, parameters, boot, rstatix, ggpubr, patchwork, sandwich, lmtest
 
 For package versions: `r_scripts/session_info.txt`.
 
----
 
 ## Preregistrations (OSF)
 
 | Study | OSF Link | Associated Files |
 |---|---|---|
-| Study A | [insert link] | `Preregistration_StudyA.pdf`, `LLM_EvaluationPlan.pdf`, `Study Plan Study A.pdf`, `Codebook HF-Space.pdf`, `Informed Consent.pdf`, `Debriefing End Text.pdf`, `Instructions.pdf`, `Recruitment Text.pdf`, `studyA_assignment_slots.csv`, `studyA_dialogs_from_goodbad.csv`, `gold_practice.csv` |
-| Study B | [insert link] | `Preregistration_StudyB.pdf`, `Codebook_StudyB_Main.pdf`, `InformedConsent_Instructions_Debrief.pdf`, `Summary of Stimulus Validation for Study B.pdf`, `studyB_stimuli.csv` |
+| Study A | [https://osf.io/8e957] | `Preregistration_StudyA.pdf`, `LLM_EvaluationPlan.pdf`, `Study Plan Study A.pdf`, `Codebook HF-Space.pdf`, `Informed Consent.pdf`, `Debriefing End Text.pdf`, `Instructions.pdf`, `Recruitment Text.pdf`, `studyA_assignment_slots.csv`, `studyA_dialogs_from_goodbad.csv`, `gold_practice.csv` |
+| Study B | [https://osf.io/akgx9] | `Preregistration_StudyB.pdf`, `Codebook_StudyB_Main.pdf`, `InformedConsent_Instructions_Debrief.pdf`, `Summary of Stimulus Validation for Study B.pdf`, `studyB_stimuli.csv` |
 
 **Note:** All CSV files referenced in the Study A OSF preregistration
 (`studyA_assignment_slots.csv`, `studyA_dialogs_from_goodbad.csv`, `gold_practice.csv`)
 are available in this repository under `data/studyA/`.
 
----
 
 ## Hugging Face Spaces
 
@@ -409,7 +402,7 @@ Full technical documentation: `docs/hf_spaces_README.md`.
 **Flow:** Welcome (IMC: "Strongly agree") → Consent → Instructions → Pilot (2 pairs/person) → End
 
 **Per pair:** Recipe card + Dialog A + Dialog B, then:
-- `dqA_overall` + `dqB_overall` (Likert 1–7)
+- `dqA_overall` + `dqB_overall` (Likert 1-7)
 - Forced choice: "Which dialog communicated better overall?" (Dialog A / Dialog B)
 
 **Reservation system:** Slots reserved on page load (timeout 20 min),
@@ -423,7 +416,6 @@ Presentation order good/bad: randomized per rater (`rng_for_rater(rater_id)`).
 
 **Analysis:** `notebooks/study_preparation/Mini_Pilot_StudyB_Auswertung.ipynb`
 
----
 
 ## Model and API Configuration
 
@@ -448,19 +440,17 @@ Presentation order good/bad: randomized per rater (`rng_for_rater(rater_id)`).
 | base_slots (Study B main seed) | 4 |
 | extra_recipes (Study B main seed) | 7 (smallest human_delta_overall) |
 
----
 
 ## Reproducibility
 
 - **API key** (AcademicCloud SAIA): `api_key = ""` in all notebooks — insert at runtime.
 - **HF token** (private dataset): set as `HF_TOKEN` Space Secret, not in code.
-- **HF cache**: default `"/content/drive/MyDrive/hf_cache"` — adjust for local execution.
-- **R seed**: `set.seed(1234)` at the start of `02_studyA_primary_and_sens_analysis.R`.
+- **HF cache**: default `"/content/drive/MyDrive/hf_cache"`, adjust for local execution.
+- **R seed**: `set.seed(1234)` at the start of `studyA_analysis.R`.
 - **R seed**: `set.seed(42)` inside `run_ancova()` in `studyB_analysis.R`.
 - **File paths in R scripts**: relative paths expected (`data/` and `outputs/`).
   For Google Drive: adjust to `/content/drive/MyDrive/Masterarbeit/Dialoge/StudyA/studyA_exports/`.
 
----
 
 ## Citation
 
